@@ -1,0 +1,35 @@
+{
+  "name": "frescart-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development --watch",
+    "build": "wedbpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@mantine/core": "^8.3.1",
+    "@mantine/hooks": "^8.3.1",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "swiper": "^11.2.10"
+  },
+  "devDependencies": {
+    "@swc/cli": "^0.7.8",
+    "@swc/core": "^1.13.5",
+    "css-loader": "^7.1.2",
+    "postcss": "^8.5.6",
+    "postcss-loader": "^8.2.0",
+    "postcss-preset-mantine": "^1.18.0",
+    "postcss-simple-vars": "^7.0.1",
+    "sass": "^1.92.1",
+    "sass-loader": "^16.0.5",
+    "style-loader": "^4.0.0",
+    "swc-loader": "^0.2.6",
+    "webpack": "^5.101.3",
+    "webpack-cli": "^6.0.1"
+  }
+}
